@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-body{
+.home{
     background-image: url(../img/pizza.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
+/* .home img{
+    height: 100%;
+    width: 100%;
+} */
 
 h1{
     color: white;
@@ -46,4 +51,37 @@ padding: 90px;
  nav ul li a:hover{
      color: blue;
  }
+ .contact{
+    background-color: black;
+    height: 500px;
+    text-align: center;
+    
+}
+#username{
+    width: 25%;
+    display:inline-block; 
+    margin-left: 50px;
+    background: transparent; 
+    border: 1px solid white;
+}
+#email{
+    width: 25%;
+    display:inline-block; 
+    margin-left: 50px;
+    background: transparent; 
+    border: 1px solid white;
+}
+::placeholder{
+    color: white;
+}
+.about{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin: 5px;
+}
+
  

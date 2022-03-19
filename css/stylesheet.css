@@ -83,5 +83,9 @@ padding: 90px;
     padding-right: 130px;
     margin: 5px;
 }
+.about img{
+    margin: auto;
+    border-radius: 80px;
+}
 
  

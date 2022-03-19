@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    background-image: url(../img/pizza.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px;
+    margin: 5px;
+}
+
+.quote p{
+font-size: 25px;
+color: azure;
+font-family: 'Satisfy', cursive;
+}
+.top{
+padding: 90px;
+}

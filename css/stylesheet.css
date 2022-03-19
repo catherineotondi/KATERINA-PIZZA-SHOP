@@ -4,18 +4,13 @@ body{
     background-color: rgb(231, 198, 154);
 }
 .home{
-    background-image: url(../img/pizza.jpeg);
+    background-image: url(../img/pizza.jpeg) ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 900px;
    
 }
-/* .home img{
-    height: 100%;
-    width: 100%;
-} */
-
 h1{
     color: white;
     font-size: 40px;
@@ -94,5 +89,13 @@ padding: 90px;
     margin: auto;
     border-radius: 80px;
 }
-
+.menu{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    color: white;
+}
+.menu h1{
+    text-align: center;
+}
  

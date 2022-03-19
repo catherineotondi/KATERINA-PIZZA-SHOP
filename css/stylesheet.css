@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Smokum&family=Ubuntu+Condensed&display=swap');
 body{
     background-color: rgb(231, 198, 154);
 }
@@ -100,6 +101,7 @@ padding: 90px;
     text-align: center;
 }
 .menu h3{
+    font-family: 'Ubuntu Condensed', sans-serif;
     padding: 20px;
     margin: 20px;
 }
@@ -118,10 +120,11 @@ input[type=radio]{
     font-weight: bolder;
 }
 fieldset{
-    width: 50%;
+    width: 80%;
     text-align: center;
     font-size: 20px;
     margin: auto;
+    border: solid black 4px;
    
 }
 legend{

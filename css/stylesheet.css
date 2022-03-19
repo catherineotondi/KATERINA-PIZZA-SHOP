@@ -103,6 +103,20 @@ padding: 90px;
     padding: 20px;
     margin: 20px;
 }
+input[type=radio]{
+ width: 20px;
+ padding: 5px;
+ margin: 1rem;
+
+}
+.radiotext{
+    color: rgb(209, 209, 221);
+    font-size: larger;
+}
+.instructiontext{
+    font-size: larger;
+    font-weight: bolder;
+}
 input[type=submit]{
     background-color: rgb(158, 158, 152);
     width: 100px;
@@ -115,4 +129,5 @@ input[type=submit]{
 input[type=submit]:hover{
 background-color: aquamarine;
 }
+
  

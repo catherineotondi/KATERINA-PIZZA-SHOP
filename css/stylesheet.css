@@ -105,6 +105,12 @@ padding: 90px;
     padding: 20px;
     margin: 20px;
 }
+fieldset{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
 input[type=radio]{
  width: 20px;
  padding: 5px;

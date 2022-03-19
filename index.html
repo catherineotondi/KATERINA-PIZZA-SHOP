@@ -49,23 +49,70 @@
        <!-- menu section  begins -->
 <section id="menu">
     <form>
-        <fieldset>
-            <legend>
-                <img src="img/pizz.jpeg" width="250px" height="150px">
-                <div class="overlay">
-                    <p>MENU</p>
-                </div>
-            </legend>
-            <div class="menu">
-                <!-- <h1>MENU</h1> -->
-                <H3>CATEGORIES</H3>
-                 <label><span class="instructiontext">Choose the size of your piza preference</span></label><br>
-                 <label><input type="radio" name="size" value="small" id="small" required> <span class="radiotext">Small</span></label>
-                 <label><input type="radio" name="size" value="medium" id="medium" > <span class="radiotext">Medium</span></label>
-                 <label><input type="radio" name="size" value="large" id="Large" ><span class="radiotext">Large</span></label>
-                 </div>
+        <div class="topic">
+            <img src="img/pizz.jpeg" width="250px" height="150px">
+            <div class="overlay">
+                <p>MENU</p>
+           </div>
+        </div>
+        <div class="menu">
+            <H3>CATEGORIES</H3>
+            <fieldset id="group1">
+                <p><span class="instructiontext">Choose the size of your piza preference</span></p>
+                <input type="radio" name="size" value="small" id="small" > <span class="radiotext">Small</span>
+                <input type="radio" name="size" value="medium" id="medium" > <span class="radiotext">Medium</span>
+                <input type="radio" name="size" value="large" id="Large" ><span class="radiotext">Large</span>
+               
+              </fieldset>
 
-        </fieldset>
+              <fieldset id="group2">
+                <p><span class="instructiontext">Choose the crust of your piza preference</span></p>
+                <input type="radio" name="crust" value="crispy" id="crispy" > <span class="radiotext">Crispy</span>
+                <input type="radio" name="crust" value="stuffed" id="stuffed" > <span class="radiotext">Stuffed</span>
+                <input type="radio" name="crust" value="gluten-free" id="gluten-free" > <span class="radiotext">Gluten-free</span>
+               
+              </fieldset>
+              <fieldset id="toppings">
+                <p><span class="instructiontext">Choose the toppings of your piza preference</span></p>
+                <input type="radio" name="toppings" value="bacon" id="bacon" > <span class="radiotext">Bacon</span>
+                <input type="radio" name="toppings" value="chicken" id="chicken" > <span class="radiotext">Chicken</span>
+                <input type="radio" name="toppings" value="sausage" id="sausage" > <span class="radiotext">Sausage</span>
+               
+              </fieldset>
+            
+              
+            <!-- <fieldset id="group1">
+                <p><span class="instructiontext">Choose the size of your piza preference</span></p>
+                <label><input type="radio" name="size" value="small" id="small" > <span class="radiotext">Small</span></label>
+                <label><input type="radio" name="size" value="medium" id="medium" > <span class="radiotext">Medium</span></label>
+                <label><input type="radio" name="size" value="large" id="Large" ><span class="radiotext">Large</span></label><br>
+            </fieldset>
+            <fieldset id="group2">
+                <p><span class="instructiontext">Choose the size of your piza preference</span></p>
+                <label><input type="radio" name="size" value="small" id="small" > <span class="radiotext">Small</span></label>
+                <label><input type="radio" name="size" value="medium" id="medium" > <span class="radiotext">Medium</span></label>
+                <label><input type="radio" name="size" value="large" id="Large" ><span class="radiotext">Large</span></label><br>
+            </fieldset>
+
+            <fieldset id="group3">
+                <p><span class="instructiontext">Choose the size of your piza preference</span></p>
+                <label><input type="radio" name="size" value="small" id="small" > <span class="radiotext">Small</span></label>
+                <label><input type="radio" name="size" value="medium" id="medium" > <span class="radiotext">Medium</span></label>
+                <label><input type="radio" name="size" value="large" id="Large" ><span class="radiotext">Large</span></label><br>
+            </fieldset> -->
+            
+
+
+           
+        </div>
+        
+            
+    
+       
+                    
+
+        
+
         
     </form>
    

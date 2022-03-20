@@ -74,9 +74,9 @@
               </fieldset>
               <fieldset id="toppings">
                 <p><span class="instructiontext">Choose the toppings of your piza preference</span></p>
-                <input type="radio" name="toppings" value="bacon" id="bacon" required> <span class="radiotext">Bacon</span>
-                <input type="radio" name="toppings" value="chicken" id="chicken" > <span class="radiotext">Chicken</span>
-                <input type="radio" name="toppings" value="sausage" id="sausage" > <span class="radiotext">Sausage</span>
+                <input type="radio" name="toppings" value="300" id="bacon" required> <span class="radiotext">Bacon</span>
+                <input type="radio" name="toppings" value="400" id="chicken" > <span class="radiotext">Chicken</span>
+                <input type="radio" name="toppings" value="500" id="sausage" > <span class="radiotext">Sausage</span>
                </fieldset><br>
 
 
@@ -105,7 +105,31 @@
                 <label><input type="radio" name="size" value="medium" id="medium" > <span class="radiotext">Medium</span></label>
                 <label><input type="radio" name="size" value="large" id="Large" ><span class="radiotext">Large</span></label><br>
             </fieldset> -->
+
+      <table class="table">
+        <thead>
+            <tr>
+              <th scope="col">Order No.</th>
+              <th scope="col">Pizza Size</th>
+              <th scope="col">Toppings</th>
+              <th scope="col">Crust</th>
+              <th scope="col">Total</th>
+              </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <th scope="row">1</th>
+              <td id="size"></td>
+              <td id="toppings"></td>
+              <td id="crust"></td>
+              <td id="total"></td>  
+          </tr> 
+        </tbody>
+      </table>
         </div>
+
+
+
      </form>
    
 

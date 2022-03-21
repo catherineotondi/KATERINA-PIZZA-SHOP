@@ -171,5 +171,9 @@ button{
     width: 100px;
     height: 60px;
 }
+::placeholder{
+    color: rgb(180, 169, 14);
+    background-color: black;
+}
 
  

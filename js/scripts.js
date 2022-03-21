@@ -78,7 +78,10 @@ $(document).ready(function () {
                 $(".additional-info h5").hide();
                 $(".btn.yes").hide();
                 $(".btn.no").hide();
-                $(".additional-info .location").show();
+                  $(".additional-info .location").show();
+                  $(".btn.complete").hide();
+                  $("input[type=text]").hide();
+
               });
           
               $(".btn.complete").click(function() {

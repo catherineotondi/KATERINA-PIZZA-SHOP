@@ -57,22 +57,22 @@
         </div>
         <div class="menu">
             <H3>CATEGORIES</H3>
-            <fieldset id="size">
+            <fieldset>
                 <p><span class="instructiontext">Choose the size of your piza preference</span></p>
-                <input type="radio" name="size" value="600" id="small" required> <span class="radiotext">Small</span>
+                <input type="radio" name="size" value=" 600" id="small" required> <span class="radiotext">Small</span>
                 <input type="radio" name="size" value="800" id="medium" > <span class="radiotext">Medium</span>
                 <input type="radio" name="size" value="1200" id="Large" ><span class="radiotext">Large</span>
                
               </fieldset>
 
-              <fieldset id="crust">
+              <fieldset>
                 <p><span class="instructiontext">Choose the crust of your piza preference</span></p>
                 <input type="radio" name="crust" value="100" id="crispy" required> <span class="radiotext">Crispy</span>
                 <input type="radio" name="crust" value="150" id="stuffed" > <span class="radiotext">Stuffed</span>
                 <input type="radio" name="crust" value="200" id="gluten-free" > <span class="radiotext">Gluten-free</span>
                
               </fieldset>
-              <fieldset id="toppings">
+              <fieldset>
                 <p><span class="instructiontext">Choose the toppings of your piza preference</span></p>
                 <input type="radio" name="toppings" value="300" id="bacon" required> <span class="radiotext">Bacon</span>
                 <input type="radio" name="toppings" value="400" id="chicken" > <span class="radiotext">Chicken</span>
@@ -80,7 +80,7 @@
                </fieldset><br>
 
 
-               <input type="submit" value="ORDER NOW" id="order ">
+               <input type="submit" value="ORDER NOW" id="Order ">
     
             
               
@@ -109,14 +109,17 @@
       <table class="table">
         <thead>
             <tr>
-              <th scope="col">Order No.</th>
-              <th scope="col">Pizza Size</th>
-              <th scope="col">Toppings</th>
-              <th scope="col">Crust</th>
-              <th scope="col">Total</th>
+              <th scope="col" style="border: none;">Order No.</th>
+              <th scope="col" style="border: none;">Pizza Size</th>
+              <th scope="col" style="border: none;">Toppings</th>
+              <th scope="col" style="border: none;">Crust</th>
+              <th scope="col" style="border: none;">Total</th>
               </tr>
+            
         </thead>
-        <tbody>
+    
+        <tbody id="pizza">
+            
           <tr>
               <th scope="row">1</th>
               <td id="size"></td>
@@ -129,13 +132,13 @@
 
       <div class="additional-buttons">
         <div class="text-center">
-          <button class="btn btn-info add-pizza" type="submit">Add Another</button>
+          <p><button class="btn btn-info add-pizza" type="submit">Add Another</button></p>
           <div class="additional-info">
-            <h3>The total is: <span></span></h3>
-            <h5>Would you like delivery for an additional <em>200</em>?</h5>
+            <h3>Total counts to: <span></span></h3>
+            <h5>Incase of a delivery preference, a charge is attached to it at <em>400</em>. Click either of the buttons to choose your detination</h5>
             <h4>Your order has been received! We are dispatching our rider to <span></span></h4>
             <div class="location text-center">
-              <input type="text" size="30" placeholder="Where do you live?" required />
+              <input type="text" size="30" placeholder="Where do you live?" required>
               <button class="btn btn-info complete" type="submit">Complete</button>
             </div>
           </div>
@@ -154,12 +157,11 @@
       <!-- menusection ends -->
        <!-- contact us section  begins -->
 <section id="contact">
-    <div class="contact">
+    <div class="contact"> 
         <h1 style=" text-align:center; color: white;" >CONTACT US</h1>
         <form id="form">
-        <label for="username">
-            <input id="username" type="text" name="username" placeholder="Name..." minlength="4" required>
-        </label>
+             <label for="username">
+            <input id="username" type="text" name="username" placeholder="Name..." minlength="4" required></label>
             <label for="email">
                 <input id="email" type="email" name="email" placeholder="Email..." required>
             </label>
@@ -169,7 +171,6 @@
             color: white;" placeholder="Your message here..." required></textarea>
             </p>
             <input type="submit" value="SUBMIT" id="submit">
-            
         </form>
     </div>
 </section>

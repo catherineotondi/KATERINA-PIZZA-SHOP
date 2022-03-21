@@ -53,28 +53,17 @@ padding: 90px;
      color: blue;
  }
  .contact{
-    background-image: linear-gradient(black,rgb(1, 6, 32));
-    height: 500px;
+    background-image: linear-gradient(white,rgb(1, 6, 32));
+    height: 400px;
     text-align: center;
-    
+    color: rgb(9, 10, 10);
+    }
+.emailtext{
+    color: rgb(26, 5, 5);
+    font-size: larger;
+    text-decoration: none;
 }
-#username{
-    width: 25%;
-    display:inline-block; 
-    margin-left: 50px;
-    background: transparent; 
-    border: 1px solid white;
-}
-#email{
-    width: 25%;
-    display:inline-block; 
-    margin-left: 50px;
-    background: transparent; 
-    border: 1px solid white;
-}
-::placeholder{
-    color: white;
-}
+
 .about{
     background-color: black;
     color: aliceblue;

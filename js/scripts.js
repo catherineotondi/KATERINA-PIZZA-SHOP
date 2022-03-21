@@ -80,7 +80,7 @@ $(document).ready(function () {
                 $(".btn.no").hide();
                   $(".additional-info .location").show();
                   $(".btn.complete").hide();
-                  $("input[type=text]").hide();
+                  $("#place").hide();
 
               });
           

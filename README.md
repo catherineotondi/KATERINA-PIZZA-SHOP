@@ -4,7 +4,7 @@
 *You are looking for the best Pizza in town?*
 **Worry no more!!!**
 #<p align=center> <img src="https://github.com/catherineotondi/KATERINA-PIZZA-SHOP/blob/master/img/pi.jpeg" width=80% height=80%></p>
-**Katerina PIzza Delivery** *got you!!!*
+**Katerina Pizza Delivery** *got you!!!*
 # ABOUT
 
 This web applicaton allows a client to purchase pizza of their own preference.

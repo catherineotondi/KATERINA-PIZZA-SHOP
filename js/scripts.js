@@ -89,6 +89,7 @@ $(document).ready(function () {
                 $(".additional-info h4").show();
                 $(".additional-info .location").hide();
                 $(".additional-info h4 span").html(location);
+                  alert("Your order will be delivered to your location");
               });
           
         });
